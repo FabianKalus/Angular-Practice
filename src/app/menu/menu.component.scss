@@ -2,6 +2,7 @@ header {
     position: absolute;
     left: 0;
     right : 0;
+    top: 0;
     height: 80px;
     z-index: 1;
     padding-left: 120px;
@@ -24,5 +25,18 @@ header {
 
     img {
         height: 50px;
+        cursor: pointer;
     }
+}
+
+.darkLinks {
+
+    a {
+        color: black;
+    }
+}
+
+.headerDark {
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba($color: #000000, $alpha: 0.2);
 }
